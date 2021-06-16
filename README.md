@@ -1,14 +1,7 @@
 
 <p align="center">
-    <img alt="GeekUp" src="https://raw.githubusercontent.com/Eranga7/GeekUp-Blog/main/src/images/geekup.png" width="100" />
+    <img alt="GeekUp" src="https://raw.githubusercontent.com/Eranga7/GeekUp-Blog/main/src/images/geekup.png" width="150" />
 </p>
-<h1 style="font-weight: 800; color: #333333;" align="center">
-  GeekUp Blog
-</h1>
-
-
-
-## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
 
