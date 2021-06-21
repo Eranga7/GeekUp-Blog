@@ -67,3 +67,7 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+.vs/GeekUp-Blog/config/applicationhost.config
+.vs/GeekUp-Blog/v16/.suo
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite

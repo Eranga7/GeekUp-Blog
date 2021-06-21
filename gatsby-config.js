@@ -1,17 +1,31 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `GeekUp Blog - Stay updated on what's new in the geek world`,
+    description: `We are the GeekUp Blog. We talk about several subjects involving technology from Google, Apple, Facebook, Amazon and Microsoft. Check daily content and news.`,
+    author: `@eranga`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/src/content`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        Plugins: [`gatsby-remark-reading-time`],
       },
     },
     `gatsby-transformer-sharp`,
