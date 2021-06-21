@@ -57,4 +57,8 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     npm install gatsby-plugin-styled-components styled-components babel-plugin-styled-components [on the website](https://www.gatsbyjs.com/plugins/gatsby-plugin-styled-components/)
 
 
+##  Adding a Custom webpack Config
+    Absolute imports [on the website](https://www.gatsbyjs.com/docs/how-to/custom-configuration/add-custom-webpack-config/#absolute-imports)
+
+
 <!-- AUTO-GENERATED-CONTENT:END -->
